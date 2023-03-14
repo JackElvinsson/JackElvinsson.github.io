@@ -1,46 +1,58 @@
 <!DOCTYPE html>
 <html lang="sv">
-  <head>
-    <title>Min portfolio</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+
+<head>
+  <title>Min portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Startsida</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+
     <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Startsida</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Kontakt</a></li>
-        </ul>
-      </nav>
-      <h1>Mina projekt</h1>
+      <h1 class="google-font">Mina projekt</h1>
+      <a class="github-link" href="https://github.com/JackElvinsson" target="_blank">GitHub</a>
+
     </header>
+
     <main>
-      <ul>
-        <li>
-          <h2>Projekt 1</h2>
-          <a href="images/projekt1.png" target="_blank">
-            <img src="images/projekt1-thumb.jpg" alt="En skärmbild av projekt 1">
-          </a>
-        </li>
-        <li>
-          <h2>Projekt 2</h2>
-          <a href="images/projekt2.png" target="_blank">
-            <img src="images/projekt2-thumb.jpg" alt="En skärmbild av projekt 2">
-          </a>
-        </li>
-        <li>
-          <h2>Projekt 3</h2>
-          <a href="images/projekt3.png" target="_blank">
-            <img src="images/projekt3-thumb.jpg" alt="En skärmbild av projekt 3">
-          </a>
-        </li>
-      </ul>
-      <a class="github-link" href="https://github.com/JackElvinsson" target="_blank">Besök min GitHub</a>
+    
+        <h2>Quiz Duel</h2>
+        <a class="project-details" href="project1.html" target="_blank">Detaljer</a>
+        <p class="description">Ett quiz spel där två spelare tävlar mot varandra i olika kategorier!</p>
+        <img class="project-image" src="images\quizDuel_pickAnswer.png" alt="En skärmbild av projekt 2">
+        
+
+        <h2>Trade Journal</h2>
+        <a class="project-details" href="project2.html" target="_blank">Detaljer</a>
+        <p>En journal där användaren kan logga aktieköp och säljordrar.</p>
+        <img class="project-image" src="images\tradeJournal_tradeAdded.png" alt="En skärmbild av projekt 2">
+        
+
+        <h2>15 Puzzle</h2>
+        <a class="project-details" href="project3.html" target="_blank">Detaljer</a>
+        <p>Ett klassikt 15-pussel där man ska försöka på siffrorna i rätt ordning!</p>
+        <img class="project-image" src="images\15Puzzle.png" alt="En skärmbild av projekt 3">
+        
+
+
     </main>
-    <footer>
-        <hr>
-        <p>Copyright &copy; 2023 – Jack Elvinsson – jackelvinsson@gmail.com</p>
-      </footer>
-  </body>
+
+  </div>
+
+  <footer>
+    <hr>
+    <p>Copyright &copy; 2023 – Jack Elvinsson – name@mail.domain</p>
+  </footer>
+</body>
+
 </html>
