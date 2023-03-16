@@ -4,11 +4,7 @@ body {
   background-color: #ffffff;
 
   overflow-y: scroll;
-  /* Always show scrollbar */
   margin-right: calc(-1 * (100vw - 100%));
-  /* Set margin to the width of the scrollbar */
-
-
 }
 
 
@@ -17,7 +13,7 @@ body {
 
 .bg {
   animation: slide 12s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  background-image: linear-gradient(-60deg, rgb(153, 153, 153) 50%, rgb(129, 129, 129) 50%);
   bottom: 0;
   left: -50%;
   opacity: .5;
@@ -47,10 +43,6 @@ body {
   text-align: center;
   top: 50%;
   transform: translate(-50%, -50%);
-}
-
-h1 {
-  font-family: monospace;
 }
 
 @keyframes slide {
@@ -96,19 +88,15 @@ header {
 
 main {
   padding-bottom: 60px;
-  /* Set the padding at the bottom of the main element to the height of the footer */
 }
 
 .image-container {
   float: left;
-  /* Float the image to the left */
   margin-right: 2%;
-  /* Add a margin to the right of the image */
 }
 
 .text-container {
   overflow: hidden;
-  /* Clear the float */
 }
 
 /* Styles för index - denna lånas till alla sidor */
@@ -156,19 +144,17 @@ main {
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
   border: 2px solid black;
   max-width: 100%;
-  /* set the initial max-width to 100% */
   height: auto;
-  /* set the initial height to auto */
 }
 
-/* set a maximum width for larger screens */
+/* max bredd för större skärmar */
 @media (min-width: 768px) {
   .project-image {
     max-width: 900px;
   }
 }
 
-/* set a maximum width for smaller screens */
+/* maxbredd för mindre skärmar */
 @media (max-width: 767px) {}
 
 
@@ -216,9 +202,7 @@ main {
 
 .github-link:active {
   transform: translateY(2px);
-  /* move the button down by 2px when clicked */
   box-shadow: none;
-  /* remove any box-shadow when clicked */
 }
 
 /* Styles för kontakt */

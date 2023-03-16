@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="sv">
-<div class="bg"></div>
-<div class="bg bg2"></div>
-<div class="bg bg3"></div>
-</div>
+
 
 <head>
     <title>Kontakt</title>
@@ -11,7 +8,9 @@
 </head>
 
 <body>
-
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
     <nav>
         <ul>
             <li><a href="index.html">Startsida</a></li>
@@ -34,7 +33,7 @@
                 "Till lobby" kommer då att bli upplåst och denna knapp fungerar sedan som en<br>
                 elektronisk "hand shake" som sedan singlarer att spelaren är redo att spela.<br>
                 När två spelare har låst in sina namn och blivit matchade mot en server startar spelet.</p>
-            <img class="project-image" src="images\quizDuel_pickName.png" alt="En skärmbild av projekt 1">
+            <img class="project-image" src="images/quizDuel_pickName.png" alt="En skärmbild av projekt 1">
 
             <h2>Lobby</h2>
             <p class="description">Väl inne i spelet hamnar spelarna i en lobby. I lobbyn ser man sin egna och sin<br>
@@ -42,36 +41,47 @@
                 spelet eller lämna. Skulle en spelare lämna lobbyn vinner per automatik spelaren som är kvar.<br>
                 Väljer en spelare att spela så sker även här en elektronisk "hand shake" som väntar på<br>
                 att båda spelarna har tryckt på "Spela" innan spelet startar.</p>
-            <img class="project-image" src="images\quizDuel_Lobby.png" alt="En skärmbild av projekt 1">
+            <img class="project-image" src="images/quizDuel_Lobby.png" alt="En skärmbild av projekt 1">
 
             <h2>Välja kategori</h2>
-            <p class="description">Nu är spelet igång, och första kategorin ska bli vald. Spelet väljer ut en av
-                spelarna som sedan<br>
+            <p class="description">Nu är spelet igång, och första kategorin ska bli vald. Spelet väljer ut en av spelarna som sedan<br>
                 får välja bland 5 olika frågekategorier. Dessa 5 kategorier är slumpade av systemet, men den<br>
                 valda kateogrin kommer aldrig dyka upp igen under spelets gång. Den spelare som inte får välja kategori<br>
                 hamnar i en väntskärm. I väntskrämen har spelaren ett val att ge upp om hen skulle tycka att spelaren som<br>
                 väljer tar för lång tid på sig eller helt enkelt inte orkar spela längre. Ger en spelare upp så vinner<br>
                 naturligtvis spelaren som är kvar i spelet rundan, och de två spelarna hamnar sedan i lobbyn igen.</p>
-            <img class="project-image" src="images\quizDuel_pickCategory.png" alt="En skärmbild av projekt 1">
+            <img class="project-image" src="images/quizDuel_pickCategory.png" alt="En skärmbild av projekt 1">
 
             <h2>Fråga och svar</h2>
-            <p class="description">Nu är spelet igång, och första kategorin ska bli vald. Spelet väljer ut en av
-                spelarna som sedan<br>
-                får välja bland 5 olika frågekategorier. Dessa 5 kategorier är slumpade av systemet, men den<br>
-                valda kateogrin kommer aldrig dyka upp igen under spelets gång. Den spelare som inte får välja kategori<br>
-                hamnar i en väntskärm. I väntskrämen har spelaren ett val att ge upp om hen skulle tycka att spelaren som<br>
-                väljer tar för lång tid på sig eller helt enkelt inte orkar spela längre. Ger en spelare upp så vinner<br>
-                naturligtvis spelaren som är kvar i spelet rundan, och de två spelarna hamnar sedan i lobbyn igen.</p>
-            <img class="project-image" src="images\quizDuel_pickAnswer.png" alt="En skärmbild av projekt 1">
+            <p class="description">Efter att första kategorin har blivit vald kommer första frågan upp. Denna fråga och alla resterande<br>
+                frågor för denna runda kommer handla om det valda kategoriämnet. Spelarna får 4 olika svarsalternativ.<br>
+                där endast ett utav svaren är korrekt. Om en spelare väljer rätt svar kommer det valda svaret markeras grönt<br>
+                Skulle en spelare välja fel svar blir det valda svaret markerat rött, och det korrekta svaret markerat<br>
+                grönt, för att visa vad som var rätt. Efter en spelare har valt ett utav svarsalternativen dyker en ny knapp<br>
+                upp som säger "Fortsätt". Trycker man på denna så genereraas nästa fråga.</p>
+            <img class="project-image" src="images&quizDuel_pickAnswer.png" alt="En skärmbild av projekt 1">
 
             <h2>Spelstatistik</h2>
-            <img class="project-image" src="images\quizDuel_gameStats.png" alt="En skärmbild av projekt 1">
+            <p class="description">När samtliga frågor för den valda kategorin blivit besvarade visas spelstatistiken för båda spelarna, och<br>
+                poäng för antal korrekta svar delas ut. Skulle en av spelarna bli klar innan den andra så visas bara statistiken<br>
+                för spelarens egna svar tills den andra spelaren har svarat på alla frågor. När spelarna vill fortsätta till<br>
+                nästa runda trycker de på "Fortsätt". Återigen fungerar detta som en "hand shake" och den kommande rundan startar<br>
+                inte förrän båda spelarna tryckt på "Fortsätt". I denna vy kan en spelare även välja att ge upp genom att trycka<br>
+                på knappen "Ge upp". Detta leder till en direkt vinst till den andra spelaren.</p>
+            <img class="project-image" src="images/quizDuel_gameStats.png" alt="En skärmbild av projekt 1">
 
             <h2>Ny runda - nytt val</h2>
-            <img class="project-image" src="images\quizDuel_pickCategoryNext.png" alt="En skärmbild av projekt 1">
+            <p class="description">Precis som första gången en kategori blev vald blir nu nästa spelare presenterad med fyra olika alternativ.<br>
+                Som nämnt oven kommer aldrig en tidiagare vald kateogri dyka upp någon mer gång under spelets gång.<br>
+                När en kategori blivit vald dyker frågorna för denna kateogri upp, precis som första rundan.<br>
+                Detta pågor tills alla rundor är avklarade.</p>
+            <img class="project-image" src="images/quizDuel_pickCategoryNext.png" alt="En skärmbild av projekt 1">
 
             <h2>Utdelning av vinstpoäng</h2>
-            <img class="project-image" src="images\quizDuel_LobbyPostGame.png" alt="En skärmbild av projekt 1">
+            <p class="description">När alla rundor är avklarade hamnar spelarna tillbaks i lobbyn. Där tilldelas den spelaren som hade flest<br>
+                korrekta svar under omgången en "spelpoäng". Dessa poäng behålls efter avklarade omgångar, och den spelare som<br>
+                har flest spelpoäng när spelet avslutas har vunnit.<br></p>
+            <img class="project-image" src="images/quizDuel_LobbyPostGame.png" alt="En skärmbild av projekt 1">
 
         </main>
 
@@ -83,4 +93,4 @@
     </footer>
 </body>
 
-</html>F
+</html>
